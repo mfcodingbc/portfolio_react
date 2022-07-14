@@ -3,7 +3,6 @@ import React from 'react';
 const Resume = () => {
   return (
     <section>
-      <h2>Resume</h2>
       <p>
         Download my Resume
         <a href='https://docs.google.com/document/d/1Iv2vInIXRKVNE5JjlPrSoKpfdT7KH1gRh8oRjUDj1pE/edit?usp=sharing'>
