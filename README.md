@@ -2,9 +2,6 @@
 
 Taking the old Portfolio and updating it with React
 
-[![MSU](https://img.shields.io/badge/MSU-Coding%20Bootcamp-green/)](https://bootcamp.msu.edu/)
-![GitHub](https://img.shields.io/github/license/mfcodingbc/portfolio_react)
-
 ## Technologies
 
 ![Technologies](https://img.shields.io/badge/-React-61DAFB?logo=React&logoColor=white)
@@ -51,9 +48,7 @@ https://github.com/mfcodingbc/portfolio_react
 
 A link to the [Deployed Application](https://mfcodingbc.github.io/portfolio_react/):
 
-```
 ![My React Portfolio Site Screenshot](./src/assets/images/react-portfolio-homepage.PNG)
-```
 
 ## License
 
