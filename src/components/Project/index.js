@@ -6,16 +6,16 @@ const Project = () => {
       {/* MSU Coding Bootcamp Group Project 3 */}
       <div class='project-row'>
         <div class='project-content'>
-          <a href='https://mfcodingbc.github.io/get-your-day-started-right/'>
+          <a href='https://mfcodingbc.github.io/habit-tracker/'>
             <img
-              src='./assets/images/Get Your Day Started.gif'
-              alt='Get Your Day Started Right!'
+              src='./assets/images/robot-gladiators-deployed-site-screenshot'
+              alt='Habit-Tracker'
             />
           </a>
           <div class='project-text'>
-            <h3>Get Your Day Started Right!</h3>
+            <h3>Habit-Tracker</h3>
             <h4>
-              HTML/CSS/JavaScript
+              React/ApolloServer/Mongoose
               <br></br>
               Collaborative Project
             </h4>
