@@ -1,4 +1,6 @@
-<h1 align="center"> Mitchell Frey (mfcodingbc) Portfolio (Made with React!) </h1>
+<h1 align="center"> Mitchell Frey (mfcodingbc) Portfolio </h1>
+
+Taking the old Portfolio and updating it with React
 
 [![MSU](https://img.shields.io/badge/MSU-Coding%20Bootcamp-green/)](https://bootcamp.msu.edu/)
 ![GitHub](https://img.shields.io/github/license/mfcodingbc/portfolio_react)
@@ -33,7 +35,7 @@ This is a portfolio made with React showcasing various projects I have completed
 
 ## Usage
 
-Follow this [link]() to visit the portfolio. Browse the site and feel free to check out my other projects featured on the site!
+Follow this [link](https://mfcodingbc.github.io/portfolio_react/) to visit the portfolio. Browse the site and feel free to check out my other projects featured on the site!
 
 ## Developers
 
@@ -47,7 +49,7 @@ A link to the [Code](https://github.com/mfcodingbc/portfolio_react):
 https://github.com/mfcodingbc/portfolio_react
 ```
 
-A link to the [Deployed Application]():
+A link to the [Deployed Application](https://mfcodingbc.github.io/portfolio_react/):
 
 ```
 
@@ -55,6 +57,6 @@ A link to the [Deployed Application]():
 
 ## License
 
-Copyright (c) Manny Garcia. All rights reserved.
+Copyright (c) Mitchell Frey. All rights reserved.
 
 Licensed under the [MIT](LICENSE) license.
