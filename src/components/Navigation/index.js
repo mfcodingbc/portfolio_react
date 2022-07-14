@@ -5,12 +5,20 @@ import { Link } from 'react-router-dom';
 const Navigation = () => {
   return (
     <nav className='text-center'>
-      <>
-        <Link to='/about'>About Me</Link>
-        <Link to='/portfolio'>Portfolio</Link>
-        <Link to='/contact'>Contact</Link>
-        <Link to='/resume'>Resume</Link>
-      </>
+      <ul>
+        <li>
+          <Link to='/about'>About Me</Link>
+        </li>
+        <li>
+          <Link to='/portfolio'>Portfolio</Link>
+        </li>
+        <li>
+          <Link to='/contact'>Contact</Link>
+        </li>
+        <li>
+          <Link to='/resume'>Resume</Link>
+        </li>
+      </ul>
     </nav>
   );
 };

@@ -4,9 +4,9 @@ import About from '../components/About';
 
 const Aboutpage = () => {
   return (
-    <main>
+    <section>
       <About />
-    </main>
+    </section>
   );
 };
 

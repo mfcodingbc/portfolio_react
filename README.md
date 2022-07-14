@@ -52,7 +52,7 @@ https://github.com/mfcodingbc/portfolio_react
 A link to the [Deployed Application](https://mfcodingbc.github.io/portfolio_react/):
 
 ```
-
+![My React Portfolio Site Screenshot](./src/assets/images/react-portfolio-homepage.PNG)
 ```
 
 ## License

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section class='hero'>
+    <section className='hero'>
       <img
         src={
           require('../../assets/images/mitchell-frey-sydney-profile-photo.jpg')
@@ -10,7 +10,7 @@ const Hero = () => {
         }
         alt='Mitchell Frey flashing a peace sign with his hand in front of the Sydney Harbor and the Sydney Opera Theatre'
       />
-      <div class='hero-text'>
+      <div className='hero-text'>
         <p>Hello World!</p>
       </div>
     </section>

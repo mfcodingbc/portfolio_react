@@ -1,344 +1,361 @@
 /* Common Styles  */
+main {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 30px;
+}
+
 :root {
-  --primary-color: #527aaf;
-  --secondary-color: #d4a219;
-  --teritarty-color: #634b4b;
-  --hover-color: #55bd00;
-  }
-  
-  * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-  }
-  
-  /* Body Styles */
-  body {
-      font-family: Helvetica, Arial, sans-serif;
-      background-color: var(--primary-color);
-  }
-  
-   /* <header> Styles */
-   header {
-      background-color: var(--teritarty-color);
-      padding: 20px 35px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      position: static;
-      top: 0px;
-      z-index: 9999;
-  }
-  
-  header h1 {
-      font-weight: bold;
-      font-size: 50px;
-      color: var(--teritarty-color);
-      margin: 0;
-      text-shadow: 0 0 10px rgba(212, 162, 25, 1);
-      background-color: var(--primary-color);
-      padding: 20px;
-      border-radius: 15px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      display: flex;
-      flex-wrap: wrap;
-  }
-  
-  header nav ul {
-      margin: 7px 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      list-style: none;
-      padding: 20px 0 0 0;
-  }
-  
-  header nav ul li a {
-      color: var(--secondary-color);
-      padding: 10px 40px;
-      font-weight: bold;
-      font-size: 1.75vw;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  header nav ul li a:hover {
-      background: var(--teritarty-color), rgba(0, 0, 0, 0.5);
-      color: var(--hover-color);
-      border-radius: 15px;
-      text-shadow: none;
-  }
-  
-  /* <footer> Styles */
-  footer {
-      background: var(--primary-color);
-      width: 100%;
-      padding: 40px 35px;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-  }
-  
-  footer h2 {
-      color: var(--teritarty-color);
-      padding: 0 20px;
-      margin: 0 5px;
-      background-color: var(--teritarty-color);
-      border-radius: 15px;
-      line-height: 1.5;
-      font-size: 30px;
-      margin: 0;
-  }
-  footer h2:hover {
-      color: var(--primary-color);
-      text-shadow: 0 0 10px rgba(212, 162, 25, 0.5);
-  }
-  footer div {
-      line-height: 1.5;
-      text-align: right;
-  }
-  
-  
-  /* Hero Styles */
-  
-  .hero {
-      background-size: cover;
-      background-position: center;
-      height: 960px;
-      display: flex;
-      justify-content: end;
-      align-items: flex-end;
-      background-image: url("./assets/images/mitchell-frey-sydney-profile-photo.jpg");
-      margin-bottom: 50px;
-  }
-  
-  /* The photo with alt tag (same as in the hero selector) is hidden and shrunk */
-  .hero img {
-      opacity: 0;
-      max-width: 1%;
-      max-height: 1%;
-  }
-  
-  .hero-text {
-      text-align: center;
-      padding: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      background-color: rgba(99, 75, 75, 0.5);
-      border-radius: 15px;
-  }
-  
-  .hero-text p {
-      font-style: italic;
-      font-size: 40px;
-      color: var(--secondary-color);
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .section-title {
-      font-size: 30px;
-      align-self: stretch;
-      align-items: flex-end;
-      text-align: right;
-      border-right: solid;
-      padding-right: 10px;
-  }
-  
-  /* About Me Styles */
-  .section-about {
-      margin: 10px;
-      display: flex;
-      justify-content: space-between;
-  }
-  
-  .about-text {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 0 20px;
-      margin: 0 5px;
-      background-color: var(--teritarty-color);
-      border-radius: 15px;
-      line-height: 1.5;
-      color: white;
-  }
-  
-  .section-about .section-title {
-      width: 40%;
-  }
-  
-  /* Project Styles */
-  
-  .section-project {
-      margin: 30px 0;
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-around;
-  }
-  
-  .project-content {
-      height: auto;
-      width: fit-content;
-      padding: 10px 10px;
-  }
-  
-  .project-content img {
-      max-height: 300px;
-      max-width: 100%;
-      height: auto;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-  }
-  
-  .project-content img:hover {
-      -webkit-filter: grayscale(0%);
-      filter: grayscale(0%);
-      transition: .5s ease;
-  }
-  
-  .project-row {
-      flex: 0 0 64%;
-      align-self: center;
-      justify-content: space-between;
-      padding: 10px 10px;
-  }
-  
-  .project-text {
-      text-align: center;
-      padding: 5px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      background-color: rgba(99, 75, 75, 0.5);
-      border-radius: 15px;
-      color: var(--secondary-color);
-      width: 50%;
-  }
-  
-  /* Contact Styles */
-  
-  .section-contact {
-      margin: 30px;
-      display: flex;
-      align-items: left;
-      justify-content: space-around;
-      flex-wrap: wrap;
-  }
-  
-  .section-contact .section-title {
-      background-color: var(--primary-color);
-  }
-  
-  .section-contact a {
-      color: var(--secondary-color);
-      padding: 10px 40px;
-      font-size: 30px;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      background-color: var(--teritarty-color);
-      border-radius: 15px;
-      flex-wrap: wrap;
-  }
-  
-  #contacts {
-      width: 77%;
-  }
-  
-  #contacts a:hover {
-      color: var(--hover-color);
-      border-radius: 15px;
-      text-shadow: none;
-  }
-  
-  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-  @media screen and (max-width: 980px) {
-      /* this will be appied on any screen smaller than 980px */
-          header {
-              padding-bottom: 0;
-              justify-content: center;
-              position: relative;
-          }
-          
-          header h1 {
-              width: 100%;
-              text-align: center;
-          }
-      
-          header nav ul {
-              margin-top: 20px;
-              width: 100%;
-              justify-content: center;
-          }
-      
-          header nav ul li a {
-              font-size: 20px;
-          }
-      
-          footer h2, footer div {
-              text-align: center;
-              width: 100%;
-          }
-      
-          .hero, .hero-text {
-              width: 100%;
-          }
-      
-          /* .hero img {
+    --primary-color: #527aaf;
+    --secondary-color: #d4a219;
+    --teritarty-color: #634b4b;
+    --hover-color: #55bd00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: var(--primary-color);
+}
+
+/* <header> Styles */
+header {
+    background-color: var(--teritarty-color);
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: static;
+    top: 0px;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--teritarty-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(212, 162, 25, 1);
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul {
+    margin: 7px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px 0 0 0;
+}
+
+header nav ul li a {
+    color: var(--secondary-color);
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 1.75vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+    background: var(--teritarty-color), rgba(0, 0, 0, 0.5);
+    color: var(--hover-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* <footer> Styles */
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer h2 {
+    color: var(--teritarty-color);
+    padding: 0 20px;
+    margin: 0 5px;
+    background-color: var(--teritarty-color);
+    border-radius: 15px;
+    line-height: 1.5;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer h2:hover {
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(212, 162, 25, 0.5);
+}
+
+footer div {
+    line-height: 1.5;
+    text-align: right;
+}
+
+
+/* Hero Styles */
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 960px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    background-image: url("./assets/images/mitchell-frey-sydney-profile-photo.jpg");
+    margin-bottom: 50px;
+}
+
+/* The photo with alt tag (same as in the hero selector) is hidden and shrunk */
+.hero img {
+    opacity: 0;
+    max-width: 1%;
+    max-height: 1%;
+}
+
+.hero-text {
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(99, 75, 75, 0.5);
+    border-radius: 15px;
+}
+
+.hero-text p {
+    font-style: italic;
+    font-size: 40px;
+    color: var(--secondary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section-title {
+    font-size: 30px;
+    align-self: stretch;
+    align-items: flex-end;
+    text-align: right;
+    border-right: solid;
+    padding-right: 10px;
+}
+
+/* About Me Styles */
+.section-about {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+    margin: 0 5px;
+    background-color: var(--teritarty-color);
+    border-radius: 15px;
+    line-height: 1.5;
+    color: white;
+}
+
+.section-about .section-title {
+    width: 40%;
+}
+
+/* Project Styles */
+
+.section-project {
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-content {
+    height: auto;
+    width: fit-content;
+    padding: 10px 10px;
+}
+
+.project-content img {
+    max-height: 300px;
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.project-content img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: .5s ease;
+}
+
+.project-row {
+    flex: 0 0 64%;
+    align-self: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.project-text {
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(99, 75, 75, 0.5);
+    border-radius: 15px;
+    color: var(--secondary-color);
+    width: 50%;
+}
+
+/* Contact Styles */
+
+.section-contact {
+    margin: 30px;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section-contact .section-title {
+    background-color: var(--primary-color);
+}
+
+.section-contact a {
+    color: var(--secondary-color);
+    padding: 10px 40px;
+    font-size: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--teritarty-color);
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+
+#contacts {
+    width: 77%;
+}
+
+#contacts a:hover {
+    color: var(--hover-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+/* #contact-form {
+
+} */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+    /* this will be appied on any screen smaller than 980px */
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer h2,
+    footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero,
+    .hero-text {
+        width: 100%;
+    }
+
+    /* .hero img {
               width: 50%;
               height: 50%;
           } */
-  
-          .hero-text {
-              text-align: center;
-          }
-      
-          .section-title {
-              width: 80%;
-          }
-      
-          .project-row {
-              flex: 0 70%;
-          }
-      }
-  
-      .section-contact {
-          flex: 0 100%;
-      }
-      
-      /* MEDIA QUERY FOR TABLETS AND SMALLER */
-      @media screen and (max-width: 768px) {
-      /* this will be applied on any screen between 768px and 575px */
-          .section-about {
-              padding: 30px 15px;
-          }
-      
-          .section-title h3 {
-              flex: 1 100%;
-              text-align: center;
-          }
-      
-          .project-content {
-              flex: 2 100%;
-              text-align: center;
-              justify-content: center;
-          }
-      
-          .project-content img {
-              flex: 0 32%;
-              margin-right: 0;
-              margin-top: 15px;
-              margin-bottom: 15px;
-          }
-      
-          .project-text {
-              flex: 100%;
-          }
-      }
-      
-      /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-      @media screen and (max-width: 575px) {
-      /* this will be applied on any screen smaller than 575px */
-          .section-title {
-              width: 95%;
-          }
-  
-          .project-row {
-              flex: 0 100%;
-          }
-      }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .project-row {
+        flex: 0 70%;
+    }
+}
+
+.section-contact {
+    flex: 0 100%;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    /* this will be applied on any screen between 768px and 575px */
+    .section-about {
+        padding: 30px 15px;
+    }
+
+    .section-title h3 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .project-content {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .project-content img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .project-text {
+        flex: 100%;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    /* this will be applied on any screen smaller than 575px */
+    .section-title {
+        width: 95%;
+    }
+
+    .project-row {
+        flex: 0 100%;
+    }
+}

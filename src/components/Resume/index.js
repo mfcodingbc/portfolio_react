@@ -2,13 +2,10 @@ import React from 'react';
 
 const Resume = () => {
   return (
-    <section>
-      <p>
-        Download my Resume
+    <section className='section-contact'>
         <a href='https://docs.google.com/document/d/1Iv2vInIXRKVNE5JjlPrSoKpfdT7KH1gRh8oRjUDj1pE/edit?usp=sharing'>
-          here
+        Download my Resume Here
         </a>
-      </p>
       <br></br>
       <h3>Front-End Proficiencies</h3>
       <ul>
