@@ -15,7 +15,7 @@ const Project = () => {
           <div class='project-text'>
             <h3>Habit-Tracker</h3>
             <h4>
-              React/ApolloServer/Mongoose
+              React/ApolloServer/MongoDB
               <br></br>
               Collaborative Project
             </h4>
