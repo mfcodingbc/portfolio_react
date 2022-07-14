@@ -9,7 +9,7 @@ const Project = () => {
           <a href='https://mfcodingbc.github.io/habit-tracker/'>
             <img
               src={
-                require('../../assets/images/run-buddy-deployed-site-screenshot.PNG')
+                require('../../assets/images/habit-tracker-deployed-site-screenshot.jpeg')
                   .default
               }
               alt='Habit-Tracker'
