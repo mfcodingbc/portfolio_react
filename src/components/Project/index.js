@@ -89,10 +89,10 @@ const Project = () => {
       {/* MSU Coding Bootcamp JS Assignment */}
       <div class='project-row'>
         <div class='project-content'>
-          <a href='https://mfcodingbc.github.io/project-day-scheduler/'>
+          <a href='https://mfcodingbc.github.io/work-day-scheduler/'>
             <img
               src={
-                require('../../assets/images/project-day-scheduler-deployed-site-screenshot.PNG')
+                require('../../assets/images/work-day-scheduler-deployed-site-screenshot.PNG')
                   .default
               }
               alt='project Day Scheduler'
