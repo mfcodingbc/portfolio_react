@@ -8,7 +8,7 @@ const Project = () => {
         <div class='project-content'>
           <a href='https://mfcodingbc.github.io/habit-tracker/'>
             <img
-              src='./assets/images/robot-gladiators-deployed-site-screenshot'
+              src='../../assets/images/run-buddy-deployed-site-screenshot.PNG'
               alt='Habit-Tracker'
             />
           </a>
@@ -27,7 +27,7 @@ const Project = () => {
         <div class='project-content'>
           <a href='https://mfcodingbc.github.io/get-your-day-started-right/'>
             <img
-              src='./assets/images/Get Your Day Started.gif'
+              src='../../assets/images/Get Your Day Started.gif'
               alt='Get Your Day Started Right!'
             />
           </a>
@@ -46,7 +46,7 @@ const Project = () => {
         <div class='project-content'>
           <a href='https://github.com/mfcodingbc/vehicle-service-manager'>
             <img
-              src='./assets/images/vehicle-service-manager-dashboard.png'
+              src='../../assets/images/vehicle-service-manager-dashboard.png'
               alt='Vehicle Service Manager'
             />
           </a>
@@ -65,7 +65,7 @@ const Project = () => {
         <div class='project-content'>
           <a href='https://mfcodingbc.github.io/run-buddy/'>
             <img
-              src='./assets/images/run-buddy-deployed-site-screenshot.PNG'
+              src='../../assets/images/run-buddy-deployed-site-screenshot.PNG'
               alt='RUN BUDDY'
             />
           </a>
@@ -80,7 +80,7 @@ const Project = () => {
         <div class='project-content'>
           <a href='https://mfcodingbc.github.io/project-day-scheduler/'>
             <img
-              src='./assets/images/project-day-scheduler-deployed-site-screenshot.PNG'
+              src='../../assets/images/project-day-scheduler-deployed-site-screenshot.PNG'
               alt='project Day Scheduler'
             />
           </a>
@@ -93,7 +93,7 @@ const Project = () => {
         <div class='project-content'>
           <a href='https://mfcodingbc.github.io/robot-gladiators/'>
             <img
-              src='./assets/images/robot-gladiators-deployed-site-screenshot.PNG'
+              src='../../assets/images/robot-gladiators-deployed-site-screenshot.PNG'
               alt='Robot Gladiators!'
             />
           </a>
