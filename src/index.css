@@ -108,7 +108,7 @@
       display: flex;
       justify-content: end;
       align-items: flex-end;
-      background-image: url("../images/mitchell-frey-sydney-profile-photo.jpg");
+      background-image: url("./assests/images/mitchell-frey-sydney-profile-photo.jpg");
       margin-bottom: 50px;
   }
   
