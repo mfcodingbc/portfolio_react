@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+<h1 align="center"> Mitchell Frey (mfcodingbc) Portfolio (Made with React!) </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![MSU](https://img.shields.io/badge/MSU-Coding%20Bootcamp-green/)](https://bootcamp.msu.edu/)
+![GitHub](https://img.shields.io/github/license/mfcodingbc/portfolio_react)
 
-## Available Scripts
+## Technologies
 
-In the project directory, you can run:
+![Technologies](https://img.shields.io/badge/-React-61DAFB?logo=React&logoColor=white)
+![Technologies](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white)
+![Technologies](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white)
+![Technologies](https://img.shields.io/badge/-JavaScript-007396?logo=JavaScript&logoColor=white)
+![Technologies](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white)
+![Technologies](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white)
+![Technologies](https://img.shields.io/badge/-Git-F05032?logo=Git&logoColor=white)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a portfolio made with React showcasing various projects I have completed utilizing an assortment of coding languages and techniques. It also includes info about myself, my resume, as well as a contact form with which a user is able to reach out to me.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+**_Requirments_**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[React](https://reactjs.org/) | [Node.js](https://nodejs.org/en/)
 
-### `npm run build`
+**_Once Installed:_**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the Repository on to your machine.
+2. Open the terminal and ensure you are in the right file path.
+3. Run the command `npm install` to download the packages.
+4. Then run the command `npm start` to run the software.
+5. The application will then begin to run locally.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow this [link]() to visit the portfolio. Browse the site and feel free to check out my other projects featured on the site!
 
-### `npm run eject`
+## Developers
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- :computer: [Mitchell Frey](https://github.com/mfcodingbc)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+A link to the [Code](https://github.com/mfcodingbc/portfolio_react):
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+https://github.com/mfcodingbc/portfolio_react
+```
 
-## Learn More
+A link to the [Deployed Application]():
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Copyright (c) Manny Garcia. All rights reserved.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Licensed under the [MIT](LICENSE) license.
