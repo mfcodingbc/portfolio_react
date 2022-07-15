@@ -22,10 +22,10 @@ function App() {
         <div>
           <Routes>
             <Route path='/portfolio_react' element={<Homepage />} />
-            <Route path='/about' element={<Aboutpage />} />
-            <Route path='/portfolio' element={<Portfoliopage />} />
-            <Route path='/contact' element={<Contactpage />} />
-            <Route path='/resume' element={<Resumepage />} />
+            <Route path='/portfolio_react/about' element={<Aboutpage />} />
+            <Route path='/portfolio_react/portfolio' element={<Portfoliopage />} />
+            <Route path='/portfolio_react/contact' element={<Contactpage />} />
+            <Route path='/portfolio_react/resume' element={<Resumepage />} />
             <Route path='/*' element={<Homepage />} />
           </Routes>
         </div>
