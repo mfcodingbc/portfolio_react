@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className='navbar text-decoration-none'>
       <div className='container flex-row justify-space-between-lg justify-center align-center'>
-        <Link to='/'>
+        <Link to='/portfolio_react'>
           <h1>Mitchell Frey</h1>
         </Link>
         <Navigation />
