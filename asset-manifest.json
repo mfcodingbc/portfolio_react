@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.9a399a61.css",
-    "main.js": "/portfolio_react/static/js/main.ec3125f8.js",
+    "main.css": "/portfolio_react/static/css/main.3b51e3a7.css",
+    "main.js": "/portfolio_react/static/js/main.0f16ffe1.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio_react/static/js/787.1ed0c42c.chunk.js",
     "static/media/Get Your Day Started.gif": "/portfolio_react/static/media/Get Your Day Started.528622204ede0e38d98b.gif",
     "static/media/run-buddy-deployed-site-screenshot.PNG": "/portfolio_react/static/media/run-buddy-deployed-site-screenshot.a51b8aed3a9a684c88ab.PNG",
@@ -11,12 +11,12 @@
     "static/media/work-day-scheduler-deployed-site-screenshot.PNG": "/portfolio_react/static/media/work-day-scheduler-deployed-site-screenshot.d8175703c08a0e33d65c.PNG",
     "static/media/robot-gladiators-deployed-site-screenshot.PNG": "/portfolio_react/static/media/robot-gladiators-deployed-site-screenshot.2807f4233b360ff69639.PNG",
     "index.html": "/portfolio_react/index.html",
-    "main.9a399a61.css.map": "/portfolio_react/static/css/main.9a399a61.css.map",
-    "main.ec3125f8.js.map": "/portfolio_react/static/js/main.ec3125f8.js.map",
+    "main.3b51e3a7.css.map": "/portfolio_react/static/css/main.3b51e3a7.css.map",
+    "main.0f16ffe1.js.map": "/portfolio_react/static/js/main.0f16ffe1.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio_react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a399a61.css",
-    "static/js/main.ec3125f8.js"
+    "static/css/main.3b51e3a7.css",
+    "static/js/main.0f16ffe1.js"
   ]
 }
