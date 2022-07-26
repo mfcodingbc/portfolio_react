@@ -7,16 +7,16 @@ const Navigation = () => {
     <nav className='text-center'>
       <ul>
         <li>
-          <Link to='/about'>About Me</Link>
+          <Link to='/portofolio_react/about'>About Me</Link>
         </li>
         <li>
-          <Link to='/portfolio'>Portfolio</Link>
+          <Link to='/portofolio_react/portfolio'>Portfolio</Link>
         </li>
         <li>
-          <Link to='/contact'>Contact</Link>
+          <Link to='/portofolio_react/contact'>Contact</Link>
         </li>
         <li>
-          <Link to='/resume'>Resume</Link>
+          <Link to='/portofolio_react/resume'>Resume</Link>
         </li>
       </ul>
     </nav>
